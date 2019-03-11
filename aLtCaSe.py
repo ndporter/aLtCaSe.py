@@ -6,11 +6,15 @@ Python widget to convert any string to an obnoxious alternating case
 Use at your own hazard
 
 @author: ndporter@vt.edu
+
+#usage example
+t_str = 'This is a Test String'
+aLtCaSe(t_str)
+#returns 'tHiS Is a tEsT StRiNg'
+
 """
 
 import math
-
-t_str = 'This is a Test String'
 
 def aLtCaSe(s):
     foo = ''
